@@ -1,0 +1,58 @@
+{
+  "source_name": "Amazon_Purchase_Histories_Original.csv",
+  "bytes": 313070173,
+  "md5": "3549d72735b1211ab009ff0177b94bd9",
+  "sha256": "6efb098a6e01a9acb6e215402a450f4a848ed1b102ca016f9be6c4f03c585e1e",
+  "checksum_verified": true,
+  "source_rows": 1850717,
+  "source_schema": [
+    "Order Date",
+    "Purchase Price Per Unit",
+    "Quantity",
+    "Shipping Address State",
+    "Title",
+    "ASIN/ISBN (Product Code)",
+    "Category",
+    "Survey ResponseID"
+  ],
+  "dataset_doi": "10.7910/DVN/YGLYDY",
+  "license": "CC0-1.0",
+  "observation_start": "2018-01-01",
+  "observation_end_exclusive": "2022-11-01",
+  "source_date_min": "2018-01-01",
+  "source_date_max": "2024-08-15",
+  "source_customers": 5027,
+  "source_rows_by_year": {
+    "2018": 225465,
+    "2019": 266016,
+    "2020": 409212,
+    "2021": 467870,
+    "2022": 442230,
+    "2023": 39923,
+    "2024": 1
+  },
+  "exclusions_sequential": {
+    "missing_customer_id": 0,
+    "invalid_date": 0,
+    "invalid_price": 0,
+    "invalid_quantity": 0,
+    "before_2018": 0,
+    "after_2022_10_31": 113659
+  },
+  "later_records_by_year": {
+    "2022": 73735,
+    "2023": 39923,
+    "2024": 1
+  },
+  "missing_category": 88717,
+  "missing_product_id": 943,
+  "missing_title": 88974,
+  "missing_state": 82469,
+  "gift_rule": "gift\\s+card|gift\\s+code|digital\\s+code|amazon\\s+reload",
+  "gift_rows": 39006,
+  "gift_value_cents": 123689987,
+  "identical_rows_retained": 10911,
+  "valid_rows": 1737058,
+  "valid_customers": 5015,
+  "total_value_cents": 4125895383
+}

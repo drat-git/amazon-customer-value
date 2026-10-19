@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "amazon-clv"
+version = "1.0.0"
+description = "Chronological Amazon spending forecasts and customer-value budget coverage"
+requires-python = ">=3.12,<3.13"
+dependencies = ["pandas", "numpy", "pyarrow", "scikit-learn", "matplotlib", "seaborn", "streamlit", "joblib", "nbformat", "nbclient", "ipykernel", "pytest", "reportlab", "pypdf", "pillow"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

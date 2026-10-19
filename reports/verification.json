@@ -1,0 +1,18 @@
+{
+  "status": "pass",
+  "checks": [
+    "Every final-test target is observed, forecasts nonnegative, and horizons coherent",
+    "Every validation/final training label ends strictly before its cutoff",
+    "Metrics, selected audience IDs, and report/slide evidence reconcile to prediction rows",
+    "Batch CLI predictions reproduce all 9,982 January account-horizon records",
+    "Four notebooks contain executed code cells with zero error outputs",
+    "Final PDF has 10 pages and final editable PPTX has 12 slides",
+    "Fresh environment full rerun reproduces primary and gift-sensitivity choices, every prediction, and all bootstrap intervals"
+  ],
+  "test_predictions": 19990,
+  "artifacts": {
+    "amazon_customer_value_report.pdf": "bba29dbe0e697f7f25591f8d3abe4a603597500ad5d309f03ea2441649fcd16a",
+    "amazon_customer_value_presentation.pptx": "d38e5145ed25b2991b778ac12926af8e3aeafacaa429fa8ff97dad8cf6c62cf8"
+  },
+  "fresh_reproduction_verified": true
+}

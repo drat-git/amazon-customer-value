@@ -1,0 +1,17 @@
+{
+  "run_version": "amazon-clv-1.0-6efb098a6e",
+  "completed_utc": "2026-10-18T08:53:57.631465+00:00",
+  "seed": 42,
+  "bootstrap_resamples": 500,
+  "source_md5": "3549d72735b1211ab009ff0177b94bd9",
+  "source_sha256": "6efb098a6e01a9acb6e215402a450f4a848ed1b102ca016f9be6c4f03c585e1e",
+  "sensitivity_completed": true,
+  "elapsed_seconds": 169.14412770804483,
+  "notes": "Both test dates use the same final bundle. Overlapping windows and repeated customers are dependent. Bootstrap resamples customers, conditional on fitted models.",
+  "public_demo": {
+    "account_ids": "Ordered display aliases; no original survey IDs",
+    "history": "Daily quantity and spending totals; item details omitted",
+    "forecasts": "Unmodified saved forecasts from the verified historical run",
+    "training": "No training or model deserialization at app startup"
+  }
+}
